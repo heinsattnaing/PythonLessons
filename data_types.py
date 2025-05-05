@@ -74,3 +74,30 @@ print("")
 
 #String index values
 print(first[1])
+print(first[-1]) #Show the last character of the Index for this case its "e"
+print(first[1:-1]) #Wants to start at the index and ends at index -1 bacically its between 1 and -1 the out put is av in dave
+print(first[1:]) #if we don't provide the end value it will just igonre and use all the output is ave in dave
+
+print("")
+
+#Some methods return Boolean values
+print(first.startswith("D"))
+print(first.endswith("Z"))
+
+#Boolean data types
+myvalue = True #True needs to be capital T also False needs to be capital F too
+x = bool(False) #bool = constructor function
+print(type(x))
+print(isinstance(myvalue, bool))
+
+print("")
+
+#Numeric data types
+
+#Integer types
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+
+#float types
