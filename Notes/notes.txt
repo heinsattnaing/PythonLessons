@@ -1,0 +1,81 @@
+Chapter 1
+
+- command panel(Ctrl + shift + p)
+- search Python select intrepreter and put downloaded python version (at 6 minutes)
+- check python version in the command = py -3 --version
+- if you press py in the command line we can use command
+- is called REPL = Read, Evaluate, Print and Loop
+- *Python is a high-level language and uses an intrepreter
+
+-------------------------------------------------------------------------------------------------
+
+Chapter 2 (Python Basics)
+
+- ctrl + , (open vscode settings)
+
+Chapter 3
+
+- 24 / 5 = 4.8
+- 24 // 5 = 4
+- round( 24 / 5 ) = 5
+
+- if we only want the remainder 24 % 5 = 4
+
+- is to the power 
+- 2 ** 3 = 8
+- 2 ** 5 = 32
+
+- We can also do this in Python
+for example 
+meaning = 42
+meaning += 1
+now meaning is 43
+meaning -= 1
+meaning /= 10
+meaning = 42.0
+round(meaning) = 42
+
+if we want to remove .
+meaning = round(meaning)
+
+x = True (Capital T)
+not x = False (Capital F)
+* if we want to change the boolean value we can use like this
+
+&& = and (in python)
+|| = or (in python)
+
+ternary statement (shorter if)
+print("right on")if meaning> 10 else(print("not today"))
+
+-------------------------------------------------------------------------------------------------
+
+Chapter 3
+
+- I don't see anything important in this chapter
+
+--------------------------------------------------------------------------------------------------
+
+Chapter 4 (Data Types)
+
+naming convention in python is (data_types)
+
+if we want to check the type of the data
+
+- print(type(name))
+- print(isinstance(first, str)) #This is the checking of "first" is string or not
+
+* pizza = str("Pepperoni")
+
+----------------------------------------------------------------------------------------------------
+
+Chapter 5 (User input)
+
+- You can check the RPS in code file.(Rock, Paper, Sissor game)
+
+playerchoice = input("Enter... \n1 for Rock,\n2 For Paper, or \n3 For Sissor:\n\n") #Example of input
+
+-----------------------------------------------------------------------------------------------------
+
+Chapter 6 (Lists and Tuples)
+
