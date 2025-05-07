@@ -79,3 +79,18 @@ playerchoice = input("Enter... \n1 for Rock,\n2 For Paper, or \n3 For Sissor:\n\
 
 Chapter 6 (Lists and Tuples)
 
+- ***Lists are one of four collection data types in python
+- they hold multiple values and we can reference those values with a common name
+
+users = ['Dave', 'John', 'Sarah']
+
+- can also do like this not only strings
+data = ['Dave', 43, True]
+
+- Can also be empty List
+emptylist = []
+
+print('Dave' in users) #The output is true meaning we can check like this
+print(users[0]) #The output is Dave we can check the data output like this
+
+***lists start with 0 index
