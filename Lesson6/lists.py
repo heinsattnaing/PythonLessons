@@ -17,3 +17,12 @@ print(users[-3:-1]) #The output is the same as the first one this is showing the
 print(len(users)) #This is the method for knowing the length for the list output is 3
 users.append('Elsa') #This add more vaue to the existing list
 print(users)
+
+users += ['Jason'] #Can also add like this to the list
+print(users)
+
+users.extend(['Robert', 'Jimmy']) #Can also add like this method
+print(users)
+
+users.extend(data) #Can also add the existing list to the list 
+print(users)
