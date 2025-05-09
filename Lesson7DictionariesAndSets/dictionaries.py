@@ -124,3 +124,32 @@ print(2 in nums)
 # Adding a new element to a set
 nums.add(8)
 print(nums)
+
+# Add elements one set to another
+morenums = { 5, 6, 7 }
+nums.update(morenums)
+print(nums)
+
+# you can use update method with lists, tuples, and dictionaries too.
+# What I mean by that is up there we can not only use set but also lists, tuples and dict too.
+
+# Merge two sets to create a new set
+one = { 1, 2, 3 }
+two = { 5, 6, 7 }
+
+mynewset = one.union(two)
+print(mynewset)
+
+# Keep only the duplicates
+one = { 1, 2, 3 }
+two = { 2, 3, 4 }
+
+one.intersection_update(two)
+print(one) # The output is only 2 and 3 because it only keep the duplicates
+
+# Keep everything except duplicates
+one = { 1, 2, 3 }
+two = { 2, 3, 4 }
+
+one.symmetric_difference_update(two)
+print(one)
